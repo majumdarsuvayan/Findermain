@@ -1,0 +1,68 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    margin: 0px;
+    font-size: large;
+}
+.input_class{
+    margin: 5px;
+    border-radius: 5px;
+    width: 20%;
+    color: green;
+    background-color: greenyellow;
+    border: 4px dashed turquoise;
+}
+.object_name_label{
+    font-weight: bold;
+    font-size: 15px;
+}
+canvas{
+    border-radius: 10px;
+    background-color: red;
+
+}
+p{
+    color: black;
+    margin-bottom: 0px;
+    font-size: small;
+}
+#content {
+    display: none; /* Hide content by default */
+
+}
+
+/* Media query for devices with max-width 768px (typical phone size) */
+@media only screen and (max-width: 1768px) {
+    #content {
+        display: block; /* Show content only on devices with max-width 768px */
+    }
+}
+.start
+{
+background-color: yellowgreen;
+
+text-align:center;
+box-shadow: 5cm;
+}
+#next, #display {
+    margin: 0; 
+}
+.container {
+    display: flex;
+}
+.start {
+    position: relative;
+    animation: bobbing 2s infinite;
+}
+
+@keyframes bobbing {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
